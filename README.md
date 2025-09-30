@@ -6,33 +6,22 @@ Dự án này là một API (hoặc ứng dụng) tập trung vào việc quản
 
 ## 📂 Tổng Quan Cấu Trúc Dự Án
 
-Dưới đây là danh sách các tệp tin quan trọng (chủ yếu là các ảnh chụp màn hình minh họa chức năng hoặc cấu hình) trong thư mục gốc của dự án.
 
-![Ảnh chụp màn hình các tệp tin trong dự án](image_b143e7.png)
 
-## 📂 Tổng Quan Cấu Trúc Dự Án
-
-Dưới đây là danh sách các tệp tin quan trọng (chủ yếu là các ảnh chụp màn hình minh họa chức năng hoặc cấu hình) trong thư mục gốc của dự án.
-
-![Ảnh chụp màn hình các tệp tin trong dự án](images/image_b143e7.png)
-
-| Tệp tin | Loại tệp | Mô tả giả định |
+| Tệp tin | Loại tệp | Mô tả  |
 | :--- | :--- | :--- |
-| ![POST API](images/post.png) | Ảnh (API) | Mô tả một yêu cầu **POST** (ví dụ: tạo người dùng hoặc tạo bài blog). |
+| <img src="src/main/resources/images/post.png" alt="POST API" width="300"/> | Ảnh (API) | Mô tả một yêu cầu **POST** (ví dụ: tạo người dùng hoặc tạo bài blog). |
 | **`application.properties`** | Cấu hình | Tệp cấu hình chính của ứng dụng (ví dụ: Spring Boot), chứa các thiết lập cơ sở dữ liệu, cổng, v.v. |
-| ![Database Users](images/databaseusers.png) | Ảnh (DB) | Minh họa cấu trúc hoặc dữ liệu mẫu của bảng/collection **Users**. |
-| ![Database Blogs](images/databaseblogs.png) | Ảnh (DB) | Minh họa cấu trúc hoặc dữ liệu mẫu của bảng/collection **Blogs**. |
-| ![PUT API](images/put.png) | Ảnh (API) | Mô tả một yêu cầu **PUT** (Cập nhật tài nguyên). |
-| ![Delete Blog](images/deleteblog.png) | Ảnh (API) | Minh họa chức năng xóa một bài đăng. |
-| ![Delete User](images/deleteuser.png) | Ảnh (API) | Minh họa chức năng xóa một người dùng. |
-| ![User GET](images/userget.png) | Ảnh (API) | Minh họa yêu cầu **GET** thông thường (ví dụ: xem hồ sơ cá nhân). |
-| ![Admin Create User](images/admincreateuser.png) | Ảnh (Admin) | Minh họa chức năng **Admin** tạo tài khoản người dùng mới. |
-| ![Admin Change User](images/adminchangeuser.png) | Ảnh (Admin) | Minh họa chức năng **Admin** thay đổi thông tin người dùng. |
-| ![Admin GET](images/adminget.png) | Ảnh (Admin) | Minh họa yêu cầu **GET** dành cho Admin (ví dụ: xem danh sách tất cả người dùng). |
-| ![Try to Change](images/trytochange.png) | Ảnh (API) | Minh họa một nỗ lực thay đổi hoặc một trường hợp kiểm tra quyền truy cập. |
-
----
-
+| <img src="src/main/resources/images/databaseusers.png" alt="Database Users" width="300"/> | Ảnh (DB) | Minh họa cấu trúc hoặc dữ liệu mẫu của bảng/collection **Users**. |
+| <img src="src/main/resources/images/databaseblogs.png" alt="Database Blogs" width="300"/> | Ảnh (DB) | Minh họa cấu trúc hoặc dữ liệu mẫu của bảng/collection **Blogs**. |
+| <img src="src/main/resources/images/put.png" alt="PUT API" width="300"/> | Ảnh (API) | Mô tả một yêu cầu **PUT** (Cập nhật tài nguyên). |
+| <img src="src/main/resources/images/deleteblog.png" alt="Delete Blog" width="300"/> | Ảnh (API) | Minh họa chức năng xóa một bài đăng. |
+| <img src="src/main/resources/images/deleteuser.png" alt="Delete User" width="300"/> | Ảnh (API) | Minh họa chức năng xóa một người dùng. |
+| <img src="src/main/resources/images/userget.png" alt="User GET" width="300"/> | Ảnh (API) | Minh họa yêu cầu **GET** thông thường (ví dụ: xem hồ sơ cá nhân). |
+| <img src="src/main/resources/images/admincreateuser.png" alt="Admin Create User" width="300"/> | Ảnh (Admin) | Minh họa chức năng **Admin** tạo tài khoản người dùng mới. |
+| <img src="src/main/resources/images/adminchangeuser.png" alt="Admin Change User" width="300"/> | Ảnh (Admin) | Minh họa chức năng **Admin** thay đổi thông tin người dùng. |
+| <img src="src/main/resources/images/adminget.png" alt="Admin GET" width="300"/> | Ảnh (Admin) | Minh họa yêu cầu **GET** dành cho Admin (ví dụ: xem danh sách tất cả người dùng). |
+| <img src="src/main/resources/images/trytochange.png" alt="Try to Change" width="300"/> | Ảnh (API) | user không thể thay đổi blog của người khác. |
 
 ---
 
@@ -51,6 +40,3 @@ Dưới đây là danh sách các tệp tin quan trọng (chủ yếu là các �
 
 ---
 
-## 📝 Đóng Góp (Contributing)
-
-Chúng tôi hoan nghênh mọi đóng góp! Vui lòng tạo một **Issue** để báo cáo lỗi hoặc đề xuất tính năng, hoặc gửi **Pull Request** với những thay đổi của bạn.
